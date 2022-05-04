@@ -1,0 +1,15 @@
+.sm-separator{
+    margin-bottom: 0.5rem;
+}
+
+.lg-separator{
+    margin-bottom: 1.5rem;
+}
+
+.xl-separator{
+    margin-bottom: 3.75rem;
+}
+
+.lg-v-separator{
+    margin-left: 1.5rem;
+}

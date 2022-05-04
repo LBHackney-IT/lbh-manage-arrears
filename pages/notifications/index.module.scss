@@ -1,0 +1,25 @@
+.notifications {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.notifications-section{
+    width: 100%;
+}
+
+.notifications-button{
+    margin-top: 0;
+}
+
+.button-container{
+    display: flex;
+}
+
+.remove-button{
+    appearance: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}

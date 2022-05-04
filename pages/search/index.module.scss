@@ -1,0 +1,19 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    width: 100%;
+    @include center;
+}
+
+.radios {
+    width: 100%;
+    @include center;
+}
+
+.container{
+    height: 100%;
+    justify-content: center;
+}

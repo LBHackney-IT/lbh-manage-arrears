@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.left-menu {
+  max-width: 320px;
+}
+
+.main-content{
+  width: calc(100% - 320px);
+}
+
+.back-link {
+  margin-left: 20px;
+  color: #00664F;
+}
+
+.back-link:hover{
+  text-decoration: underline;
+}
+
+.back-button-container{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.noti-bubble{
+  background: #E03C31;
+  border-radius: 16px;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+}
